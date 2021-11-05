@@ -12,3 +12,5 @@ export default function Flashcard({ flashcard }) {
     const backHeight = backEl.current.getBoundingClientRect().height
     setHeight(Math.max(frontHeight, backHeight, 100))
   }
+
+  
