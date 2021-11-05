@@ -3,7 +3,7 @@ import FlashcardList from './FlashcardList';
 import './app.css'
 import axios from 'axios'
 
-function App() {
+function app() {
   const [flashcards, setFlashcards] = useState([])
   const [categories, setCategories] = useState([])
 
@@ -80,4 +80,4 @@ function App() {
   );
 }
 
-export default App;
+export default app;
